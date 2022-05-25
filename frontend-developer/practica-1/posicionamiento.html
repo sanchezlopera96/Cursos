@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posicionamiento</title>
+    <style>
+        .container {
+            width: 200px;
+            height: 200px;
+            background: peachpuff;
+            position: relative;
+            top: 20px;
+        }
+        .item {
+            width: 20px;
+            height: 20px;
+            background: hotpink;
+            position: absolute;
+            right: 0;
+        }
+        nav {
+            width: 100%;
+            height: 60px;
+            background: lightcyan;
+            position: fixed;
+            top: 0;
+        }
+        ul p{
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav></nav>
+    <div class="container">
+        <div class="item"></div>
+    </div>
+    <p>Tutoriales
+
+        Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (en-US) (incluyendo varios languages basados en XML como SVG, MathML o XHTML). CSS describe como debe ser renderizado el elemento estructurado en la pantalla, en papel, en el habla o en otros medios.
+        
+        CSS es uno de los lenguajes base de la Open Web y posee una especificación estandarizada por parte del W3C. Anteriormente , el desarrollo de varias partes de las especificaciones de CSS era realizado de manera sincrónica, lo que permiía el versionado de las recomendaciones. Probablemente habrás escuchado acerca de CSS1, CSS2.1, CSS3. Sin embargo, CSS4 nunca se ha lanzado como una versión oficial.
+        
+        Desde CSS3, el alcance de las especificaciones se incrementó de forma significativa y el progreso de los diferentes modulos de CSS comenzó a mostrar varias diferencias, lo que hizo más efectivo desarrollar y publicar recomendaciones separadas por módulos. En vez de versionar las especificaciones de CSS, la W3C actualmente realiza una captura de las ultimas espcificaciones estables de CSS.
+        
+            Introducción a CSS
+        
+            Si eres nuevo en el desarrollo web, asegúrate de leer nuestro artículo de conceptos básicos de CSS para saber qué es CSS y cómo usarlo.
+            Tutoriales CSS
+        
+            Nuestra área de aprendizaje de CSS contiene una gran cantidad de tutoriales que te llevan desde el nivel de principiante hasta el nivel de competencia, cubriendo todos los aspectos fundamentales.
+            Referencia CSS
+        
+            Nuestra exhaustiva referencia de CSS para desarrolladores web experimentados describe cada propiedad y concepto de CSS.
+        
+        Nuestra área de aprendizaje CSS presenta múltiples módulos que enseñan CSS desde cero — no se requieren conocimientos previos.
+        
+        Primeros pasos en CSS
+            CSS es utilizado para diseñar y dar estilo a las páginas web, por ejemplo, alterando la fuente, color, tamaño y espaciado del contenido, dividirlo en múltiples columnas o agregar animaciones y otras características decorativas. Este módulo proporciona un suave comienzo hacia el dominio de CSS con los conceptos básicos acerca de su funcionamiento, la sintaxis y la manera en que puedes comenzar a utilizarlo para agregar estilos al HTML.
+        
+        Bloques de construcción CSS.
+            Este módulo continúa a partir de donde dejó el módulo de primeros pasos de CSS. Ahora que has adquirido familiaridad con el lenguaje y su sintaxis, y has ganado cierta experiencia básica con su uso, es hora de profundizar un poco más. Este módulo analiza la cascada y la herencia, todos los tipos de selectores que tenemos disponibles, unidades, tamaño, estilo de fondos y bordes, depuración (debugging) y mucho más. 
+            El propósito de este módulo es proporcionarte un set de herramientas para escribir CSS competente y ayudarte a entender todas la teoría esencial antes de avanzar hacia cuestiones más específicas como estilo de textos y diseño CSS. 
+        
+        Estilo de texto
+            Con los conceptos básicos del lenguaje CSS cubiertos, el siguiente tema de CSS en el que debes concentrarte es dar estilo al texto, una de las cosas más comunes que harás con CSS. Aquí veremos los fundamentos del estilo del texto, incluida la configuración de la fuente, negrita, cursiva, espaciado entre líneas y letras, sombras y otras características del texto. Terminaremos el módulo analizando la aplicación de fuentes personalizadas a tu página y en el estilo de listas y enlaces.
+        Diseño de CSS
+            En este punto ya hemos analizado los fundamentos de CSS, cómo dar estilo al texto y cómo diseñar y manipular las cajas en las que se encuentra el contenido. Ahora es el momento de ver cómo colocar sus cajas en el lugar correcto en relación con la pantalla del dispositivo y entre sí. Hemos cubierto los requisitos previos necesarios para que ahora puedas profundizar en el diseño de CSS, mirando diferentes configuraciones de pantalla, métodos de diseño tradicionales que implican flotación y posicionamiento, y nuevas herramientas de diseño como flexbox, grid y posicionamiento, asi como algunas técnicas de herencia que quizas desees conocer.
+        Uso de CSS para resolver problemas comunes
+            proporciona enlaces a secciones de contenido que explican cómo usar CSS para resolver problemas muy comunes al crear una página web.
+        
+        Referencia
+        
+            Referencia CSS: Esta referencia exhaustiva para desarrolladores web experimentados describe cada propiedad y concepto de CSS.
+            Conceptos clave de CSS:
+                La sintaxis y las formas del lenguaje (en-US)
+                Especificidad (en-US), herencia y la cascada (en-US)
+                Unidades y valores CSS
+                Modelo de caja (en-US) y colapso de margen (en-US)
+                El bloque contenedor (en-US)
+                Contextos de apilamiento (en-US) y formato de bloques (en-US)
+                Valores iniciales (en-US), calculados, usados (en-US)y actuales (en-US)
+                Propiedades abreviadas de CSS
+                Diseño de caja flexible de CSS
+                Diseño de cuadrícula CSS (CSS Grid)
+                Media queries
+                Animaciones
+        </p>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <ul>
+            <p>Frutas</p>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+</body>
+</html>
